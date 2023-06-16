@@ -3241,7 +3241,7 @@
       ],
       "title": "deco-sites/std/functions/vtexWishlist.ts@Props"
     },
-    "L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvbGl2ZS9ibG9ja3MvYWNjb3VudC50cw==@Account": {
+    "ZGVjby1jeC9saXZlL2Jsb2Nrcy9hY2NvdW50LnRz@Account": {
       "type": "object",
       "properties": {},
       "required": [],
@@ -3251,7 +3251,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvbGl2ZS9ibG9ja3MvYWNjb3VudC50cw==@Account"
+          "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9hY2NvdW50LnRz@Account"
         }
       ],
       "properties": {
@@ -3276,7 +3276,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvbGl2ZS9ibG9ja3MvYWNjb3VudC50cw==@Account"
+          "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9hY2NvdW50LnRz@Account"
         }
       ],
       "properties": {
@@ -3334,7 +3334,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvbGl2ZS9ibG9ja3MvYWNjb3VudC50cw==@Account"
+          "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9hY2NvdW50LnRz@Account"
         }
       ],
       "properties": {
@@ -3458,12 +3458,6 @@
     "ZGVjby1jeC9saXZlL2Jsb2Nrcy9sb2FkZXIudHM=@Loader": {
       "$ref": "#/root/loaders",
       "title": "Loader"
-    },
-    "ZGVjby1jeC9saXZlL2Jsb2Nrcy9hY2NvdW50LnRz@Account": {
-      "type": "object",
-      "properties": {},
-      "required": [],
-      "title": "Account"
     },
     "ZGVjby1jeC9saXZlL2Jsb2Nrcy9mbGFnLnRz@Flag": {
       "$ref": "#/root/flags",
@@ -6669,7 +6663,7 @@
       "$ref": "#/root/handlers",
       "title": "Handler"
     },
-    "L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvbGl2ZS9mbGFncy9hdWRpZW5jZS50cw==@Route": {
+    "ZGVjby1jeC9saXZlL2ZsYWdzL2F1ZGllbmNlLnRz@Route": {
       "type": "object",
       "properties": {
         "pathTemplate": {
@@ -6704,7 +6698,7 @@
       ],
       "title": "Route"
     },
-    "L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvbGl2ZS9mbGFncy9hdWRpZW5jZS50cw==@Route[]": {
+    "ZGVjby1jeC9saXZlL2ZsYWdzL2F1ZGllbmNlLnRz@Route[]": {
       "anyOf": [
         {
           "$ref": "#/definitions/Resolvable"
@@ -6712,9 +6706,9 @@
         {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvbGl2ZS9mbGFncy9hdWRpZW5jZS50cw==@Route"
+            "$ref": "#/definitions/ZGVjby1jeC9saXZlL2ZsYWdzL2F1ZGllbmNlLnRz@Route"
           },
-          "title": "/Users/gimenes/Documents/code/live/flags/audience.ts@Route[]"
+          "title": "deco-cx/live/flags/audience.ts@Route[]"
         },
         {
           "title": "VTEX Proxy Routes",
@@ -6859,6 +6853,61 @@
       ],
       "title": "deco-sites/std/packs/vtex/loaders/wishlist.ts@Props"
     },
+    "ZGVjby1zaXRlcy9vbXJvbi9jb21wb25lbnRzL2Zvb3Rlci9OZXdzbGV0dGVyLnRzeA==@Form": {
+      "type": "object",
+      "properties": {
+        "placeholder": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Placeholder"
+        },
+        "buttonText": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Button Text"
+        },
+        "helpText": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "html",
+          "title": "Help Text"
+        }
+      },
+      "required": [],
+      "title": "Form"
+    },
+    "ZGVjby1zaXRlcy9vbXJvbi9jb21wb25lbnRzL2Zvb3Rlci9OZXdzbGV0dGVyLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Title"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "textarea",
+          "title": "Description"
+        },
+        "form": {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9vbXJvbi9jb21wb25lbnRzL2Zvb3Rlci9OZXdzbGV0dGVyLnRzeA==@Form",
+          "title": "Form"
+        }
+      },
+      "required": [],
+      "title": "Props"
+    },
     "ZGVjby1zaXRlcy9zdGQvcGFja3MvdnRleC90eXBlcy50cw==@SKU": {
       "type": "object",
       "properties": {
@@ -6980,48 +7029,6 @@
         "to"
       ],
       "title": "deco-cx/live/handlers/redirect.ts@RedirectConfig"
-    },
-    "ZGVjby1jeC9saXZlL2ZsYWdzL2F1ZGllbmNlLnRz@Route": {
-      "type": "object",
-      "properties": {
-        "pathTemplate": {
-          "type": "string",
-          "title": "Path Template"
-        },
-        "isHref": {
-          "type": [
-            "boolean",
-            "null"
-          ],
-          "description": "if true so the path will be checked agaisnt the coming from request instead of using urlpattern.",
-          "title": "Is Href"
-        },
-        "handler": {
-          "type": "object",
-          "properties": {
-            "value": {
-              "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9oYW5kbGVyLnRz@Handler",
-              "title": "Value"
-            }
-          },
-          "required": [
-            "value"
-          ],
-          "title": "Handler"
-        }
-      },
-      "required": [
-        "pathTemplate",
-        "handler"
-      ],
-      "title": "Route"
-    },
-    "ZGVjby1jeC9saXZlL2ZsYWdzL2F1ZGllbmNlLnRz@Route[]": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/ZGVjby1jeC9saXZlL2ZsYWdzL2F1ZGllbmNlLnRz@Route"
-      },
-      "title": "Route[]"
     },
     "ZGVjby1jeC9saXZlL2hhbmRsZXJzL3JvdXRlci50cw==@RouterConfig": {
       "type": "object",
@@ -8713,7 +8720,7 @@
               "anyOf": [
                 {
                   "type": "string",
-                  "const": "Primary"
+                  "const": "Footer"
                 },
                 {
                   "type": "string",
@@ -10710,7 +10717,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvbGl2ZS9ibG9ja3MvYWNjb3VudC50cw==@Account"
+          "$ref": "#/definitions/ZGVjby1jeC9saXZlL2Jsb2Nrcy9hY2NvdW50LnRz@Account"
         }
       ],
       "properties": {

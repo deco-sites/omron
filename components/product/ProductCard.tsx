@@ -86,7 +86,7 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
     <a
       href={url && relative(url)}
       aria-label="view product"
-      class="btn btn-block"
+      class="btn btn-block bg-btnDhelf text-white"
     >
       {l?.basics?.ctaText || "Ver produto"}
     </a>

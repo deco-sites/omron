@@ -306,7 +306,7 @@ const toVariables = (t: Theme): [string, string][] => {
 const defaultTheme = {
   "primary": "hsla(209, 28%, 21%, 1)",
   "primary-content": "hsla(0, 0%, 100%, 1)",
-  "secondary": "hsla(104, 18%, 46%, 1)",
+  "secondary": "hsla(0, 0%, 100%, 1)",
   "secondary-content": "hsla(0, 0%, 100%, 1)",
   "accent": "hsla(8, 69%, 65%, 1)",
   "accent-content": "hsla(0, 0%, 100%, 1)",
