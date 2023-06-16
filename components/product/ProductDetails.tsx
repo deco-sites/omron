@@ -246,7 +246,8 @@ function Details({
    */
   if (variant === "slider") {
     return (
-      <>
+     
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-[50vw_25vw] sm:grid-rows-1 sm:justify-center">
         <div
           id={id}
           class="grid grid-cols-1 gap-4 sm:grid-cols-[max-content_40vw_40vw] sm:grid-rows-1 sm:justify-center"
@@ -322,7 +323,7 @@ function Details({
           </div>
         </div>
         <SliderJS rootId={id}></SliderJS>
-      </>
+      </div>
     );
   }
 
