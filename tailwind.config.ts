@@ -9,9 +9,9 @@ export default {
     extend: {
       container: { center: true },
       colors: {
-        secondary: "#AD2128",
-        btnDhelf: "#AD2128",
-        accent: "#0050a4",
+        secondary: "#306F95",
+        btnDhelf: "#003153",
+        accent: "#005EB8",
         white: "#FFF",
         footer: "#1e1e1e",
       },
