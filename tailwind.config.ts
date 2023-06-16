@@ -14,6 +14,7 @@ export default {
         accent: "#005EB8",
         white: "#FFF",
         footer: "#1e1e1e",
+        btnHover:"#1f2b37"
       },
     },
   },

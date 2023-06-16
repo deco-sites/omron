@@ -66,7 +66,6 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
   const { listPrice, price, installments } = useOffer(offers);
   const possibilities = useVariantPossibilities(product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
-
   const l = layout;
   const align =
     !l?.basics?.contentAlignment || l?.basics?.contentAlignment == "Left"
@@ -86,7 +85,7 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
     <a
       href={url && relative(url)}
       aria-label="view product"
-      class="btn btn-block bg-btnDhelf text-white"
+      class="btn btn-block bg-btnDhelf text-white hover:bg-btnHover"
     >
       {l?.basics?.ctaText || "Ver produto"}
     </a>
@@ -261,7 +260,7 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
                 {formatPrice(price, offers!.priceCurrency!)}
               </div>
             </div>
-            {l?.hide.installments
+            {!installments
               ? ""
               : (
                 <div class="text-base-300 text-sm lg:text-base">
@@ -289,7 +288,7 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
         {!l?.hide.cta
           ? (
             <div
-              class={`flex-auto flex items-end ${
+              class={`flex-auto flex items-end  ${
                 l?.onMouseOver?.showCta ? "lg:hidden" : ""
               }`}
             >
